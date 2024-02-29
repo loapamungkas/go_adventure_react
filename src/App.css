@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+#auth-toggle:checked + #auth {
+  display: block;
+}
+
+.hover\:grow {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.hover\:grow:hover {
+  transform: scale(1.02);
+}
