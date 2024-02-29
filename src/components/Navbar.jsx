@@ -113,9 +113,9 @@ const Navbar = () => {
                   {token ? (
                     <div className="pl-1 md:pl-3 inline-block no-underline hover:text-black text-sm">Welcome, {user.nama}</div>
                   ) : (
-                    <a href="/login" className="pl-1 md:pl-3 inline-block no-underline hover:text-black text-sm">
+                    <Link to="/login" className="pl-1 md:pl-3 inline-block no-underline hover:text-black text-sm">
                       Login
-                    </a>
+                    </Link>
                   )}
                   <Menu as="div" className="relative ml-3">
                     <div>
